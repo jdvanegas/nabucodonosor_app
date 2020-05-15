@@ -5,7 +5,7 @@ class UpButton extends StatelessWidget {
   ValueNotifier<GraphQLClient> clientUp = ValueNotifier(
     GraphQLClient(
       cache: InMemoryCache(),
-      link: HttpLink(uri: 'http://34.68.168.208:8000/graphql'),
+      link: HttpLink(uri: 'http://34.69.242.158:8000/graphql'),
     ),
   );
 

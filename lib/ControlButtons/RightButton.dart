@@ -5,7 +5,7 @@ class RightButton extends StatelessWidget {
   ValueNotifier<GraphQLClient> clientRight = ValueNotifier(
     GraphQLClient(
       cache: InMemoryCache(),
-      link: HttpLink(uri: 'http://34.68.168.208:8003/graphql'),
+      link: HttpLink(uri: 'http://34.69.242.158:8003/graphql'),
     ),
   );
 
